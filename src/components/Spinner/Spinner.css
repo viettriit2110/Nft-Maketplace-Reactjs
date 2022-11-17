@@ -1,0 +1,29 @@
+.spinner {
+    box-sizing: border-box;
+}
+
+.loader{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 2px solid white;
+    border-bottom-color: transparent;
+    position: relative;
+    animation: spinner 1s linear infinite paused;
+    -webkit-animation: spinner 1s linear infinite;
+    margin-right: 10px;
+  }
+  
+  @keyframes spinner {
+    to {
+      transform: rotate(1turn);
+      -webkit-transform: rotate(1turn);
+      -moz-transform: rotate(1turn);
+      -ms-transform: rotate(1turn);
+      -o-transform: rotate(1turn);
+    }
+  }

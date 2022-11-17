@@ -1,4 +1,3 @@
-# Nft-Maketplace-Reactjs
 # The example of NFT marketplace Frontend
 
 [Live Demo](https://nftngviettri.herokuapp.com/)

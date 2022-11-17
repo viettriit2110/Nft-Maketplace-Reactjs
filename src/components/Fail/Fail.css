@@ -1,0 +1,33 @@
+.fail {
+  display: inline-block;
+  position: relative;
+  border: 1px solid red;
+  border-radius: 50%;
+  font-size: 0.4px;
+  width: 50em;
+  height: 50em;
+  color: red;
+  margin-right: 10px;
+}
+
+.fail::before,
+.fail::after {
+  content: '';
+  width: 5em;
+  height: 34em;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: -17em;
+  margin-left: -2em;
+  background-color: currentColor;
+  border-radius: 3px;
+}
+  
+.fail::before {
+  transform: rotate(45deg);
+}
+  
+.fail::after {
+  transform: rotate(-45deg);
+}

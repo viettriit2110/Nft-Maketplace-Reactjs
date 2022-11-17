@@ -1,0 +1,32 @@
+.place-bid {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 200px;
+}
+.place-bid .btn {
+  color: white;
+}
+.quantity-wrapper {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+.currency {
+  font-size: 1.8rem;
+  padding-left: 10px;
+}
+.quantity-wrapper .quantity {
+  background-color: initial;
+}
+
+.place-bid__complete {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.check-mark {
+  width: 20rem;
+}

@@ -1,0 +1,12 @@
+.h-price {
+    max-width: 70px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.span-price {
+    max-width: 70px;   
+}
+
+.type-token {
+    margin-left: 5px;
+}

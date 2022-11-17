@@ -1,0 +1,8 @@
+.is_dark .dropdown-item {
+  color: #fff;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+  background-color: initial;
+  color: #fff;
+}

@@ -1,0 +1,10 @@
+.check {
+  display: inline-block;
+  transform: rotate(45deg);
+  height: 20px;
+  width: 15px;
+  border-bottom: 7px solid #78b13f;
+  border-right: 7px solid #78b13f;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}

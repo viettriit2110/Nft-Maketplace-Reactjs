@@ -1,0 +1,38 @@
+.upload__image-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-edit {
+  position: absolute;
+  z-index: 1;
+  padding: 5px 9px;
+  top: 0;
+  right: 0px;
+  margin: 5px;
+}
+.upload-preview {
+  width: 237px;
+}
+
+.image-item__btn-wrapper {
+  justify-content: space-around;
+  display: flex;
+  margin-top: 1rem;
+  user-select: auto;
+}
+
+.upload__image-wrapper button,
+.image-item__btn-wrapper button {
+  padding: 8px 20px;
+  color: #fff;
+  background: transparent none repeat scroll 0 0;
+  font-size: 13px;
+  font-weight: normal;
+  letter-spacing: 0.7px;
+  border: 1.5px solid #fff;
+}
+
+.feature-profile .user-avatar {
+  font-size: 10rem;
+}

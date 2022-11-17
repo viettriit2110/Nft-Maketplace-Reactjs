@@ -1,0 +1,8 @@
+.is_dark .logo-footer_light,
+.logo-footer_dark {
+  display: block;
+}
+.is_dark .logo-footer_dark,
+.logo-footer_light {
+  display: none;
+}
